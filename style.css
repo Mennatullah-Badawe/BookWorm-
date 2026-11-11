@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+  mix-blend-mode: multiply;
+
+  
+}
+
+.header {
+  background-color: #7e1946;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header a:hover {
+  background-color: #5b8eaa;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #86bfdd;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 50px;
+  border: none;
+}
+.button:hover {
+  background-color: #5b8eaa;
+  cursor: pointer;
+}
+
+.landing-page {
+  background: #7e1946;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: flex-start;
+  color: #fff;
+  border-radius: 0 0 50px 50px;
+  margin:auto;
+  padding-bottom: 20px;
+}
+.landing-search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.landing-search-bar input {
+  border-radius: 50px 0 0 50px;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0 10px;
+}
+.landing-search-bar button {
+  height: 30px;
+  cursor: pointer;
+  border-radius: 0 50px 50px 0;
+}
+.landing-image img {
+  border-radius: 40px;
+    width: 350px;
+    height: 250px;
+    mix-blend-mode: absolute;
+    padding: 10px;
+    align-items: center;
+
+}
+.trending-section {
+    padding: 10px 20px;
+
+}
+.trending-section span {
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.trending-header h1 {
+  font-size: 24px;
+  margin-top: 0;
+
+}
+.trending-books {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  
+}
+.book {
+  width : 200px;
+   background-color: #eeeeee;
+   border-radius: 20px;
+}
+.book-image {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+}
+.book-info {
+  display: flex;
+  justify-content: space-between;
+  mix-blend-mode: multiply;
+ padding: 5px 25px;
+ align-items: center;
+ font-size: 15px;
+  
+}
+.book-info img {
+  width: 50px;
+ padding: 5px;
+  border-radius: 50%;
+
+}
+.footerContainer {
+    background-color:#7e1946;
+    height: 110px;
+    border-radius: 80px 80px 0 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.footer {
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: larger;
+}
